@@ -64,12 +64,12 @@ const Home: NextPage = () => {
           <p>Bear in mind, i don&#8216;t like music.</p>
           <p>I&#8216;m an easy going person, full of humor and active.</p>
           <p>I prefer stay at home rather than going outside with people.</p>
-          <p>In the meantime, I like to play</p>
+          <p>In the meantime, I like to play some games</p>
 
           <h3>Criteria</h3>
           <hr />
           <p>I like obedient and cheerful person.</p>
-          <p>I don&#8216;t like moody person.</p>
+          <p>I don&#8216;t like a moody person.</p>
 
           <h3>Gallery</h3>
           <hr />
