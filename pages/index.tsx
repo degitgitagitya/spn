@@ -24,12 +24,6 @@ const Home: NextPage = () => {
           <h2 className=''>Hello, my name is</h2>
           <h1>De Gitgit Agitya</h1>
 
-          <p>
-            <a href='https://www.linkedin.com/in/de-gitgit-a-45b62a94/'>
-              Linkedin
-            </a>
-          </p>
-
           <h3>Introduction</h3>
           <hr />
           <p>I was born in Tasikmalaya, Indonesia and I&#8216;m Sundanese.</p>
@@ -37,10 +31,12 @@ const Home: NextPage = () => {
           <p>I&#8216;m 23 years old.</p>
           <p>
             I&#8216;m a Tech Lead and Senior Software Engineer in{' '}
-            <a href='https://prosa.ai/'>Prosa.ai</a>. Currently, I&#8216;m
-            working from anywhere.
+            <a className='underline' href='https://prosa.ai/'>
+              Prosa.ai
+            </a>
+            . Currently, I&#8216;m working from anywhere.
           </p>
-          <p>I have 2 brothers and I&#8216;m the youngest one.</p>
+          <p>I have 2 older brothers.</p>
 
           <h3>Education</h3>
           <hr />
@@ -48,6 +44,17 @@ const Home: NextPage = () => {
             I was studying in Indonesia University of Education (Bachelor of
             Computer Science).
           </p>
+
+          <h3>Career</h3>
+          <hr />
+          <p>You can take a look at my CV here</p>
+          <a
+            className='h-10 px-6 font-semibold rounded-md bg-black text-white py-2'
+            href='/cv.pdf'
+            target='degitgitagitya-cv'
+          >
+            My Professional CV
+          </a>
 
           <h3>Physical</h3>
           <hr />
